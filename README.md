@@ -1,5 +1,7 @@
-# services-json
-Converts to and from JSON format
+Services-Json
+======
+
+## Converts to and from JSON format
 
 JSON (JavaScript Object Notation) is a lightweight data-interchange
 format. It is easy for humans to read and write. It is easy for machines
@@ -25,7 +27,7 @@ Converts to and from JSON format.
 
 Brief example of use:
 
-<code>
+```php
 // create a new instance of Services_JSON
 $json = new Services_JSON();
 
@@ -39,4 +41,5 @@ print($output);
 // accept incoming POST data, assumed to be in JSON notation
 $input = file_get_contents('php://input', 1000000);
 $value = $json->decode($input);
-</code>
+```
+
