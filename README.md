@@ -1,7 +1,7 @@
 Services-Json
 ======
 
-## Converts to and from JSON format
+## Better Convert to and from JSON format in PHP (json encode, json decode)
 
 JSON (JavaScript Object Notation) is a lightweight data-interchange
 format. It is easy for humans to read and write. It is easy for machines
@@ -21,11 +21,9 @@ decoded from incoming Javascript requests. JSON format is native to
 Javascript, and can be directly eval()'ed with no further parsing
 overhead
  
-All strings should be in ASCII or UTF-8 format!
+#### All strings should be in ASCII or UTF-8 format!
 
-Converts to and from JSON format.
-
-Brief example of use:
+### Brief example of use:
 
 ```php
 // create a new instance of Services_JSON
