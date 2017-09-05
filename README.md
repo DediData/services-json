@@ -41,5 +41,8 @@ print($output);
 // accept incoming POST data, assumed to be in JSON notation
 $input = file_get_contents('php://input', 1000000);
 $value = $json->decode($input);
+
+// if you want to convert json to php arrays:
+$json = new Services_JSON(SERVICES_JSON_LOOSE_TYPE);
 ```
 
